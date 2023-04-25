@@ -53,7 +53,7 @@ public class StrategyServiceImpl implements StrategyService {
             Member member = memberRepository.findByEmail(email).orElse(null);
 
 
-            if(member.getRole() == 1){
+            if((member.getRole() == 1) && (member !=null)){
 
                 String image = uploadPic(file);
                 strategyRequest.setImage(image);
@@ -74,7 +74,7 @@ public class StrategyServiceImpl implements StrategyService {
 
             }
 
-        }catch (Exception e){
+        }catch (NullPointerException | IOException e){
             e.printStackTrace();
             return "관리자만 작성 가능합니다";
         }

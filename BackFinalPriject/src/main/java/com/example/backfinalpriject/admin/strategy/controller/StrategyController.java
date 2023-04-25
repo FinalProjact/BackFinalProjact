@@ -6,6 +6,8 @@ import com.example.backfinalpriject.admin.strategy.dto.response.StrategyDetailPa
 import com.example.backfinalpriject.admin.strategy.dto.response.StrategyPageResponse;
 import com.example.backfinalpriject.admin.strategy.dto.response.StrategySearchResponse;
 import com.example.backfinalpriject.admin.strategy.service.StrategyService;
+import com.example.backfinalpriject.exception.ErrorCode;
+import com.example.backfinalpriject.exception.GlobalException;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
@@ -24,10 +26,16 @@ public class StrategyController {
 
 
     @PostMapping("/admin/strategy")
-    public String strategyBoard(@RequestParam(value="file",required = false) MultipartFile file,@RequestParam(value="video",required = false) MultipartFile video, StrategyRequest strategyRequest, StrategyVideoRequest videoRequest){
+    public ResponseEntity<String> strategyBoard(@RequestParam(value="file",required = false) MultipartFile file,
+                                                @RequestParam(value="video",required = false) MultipartFile video,
+                                                StrategyRequest strategyRequest, StrategyVideoRequest videoRequest){
         String email = (String) session.getAttribute("email");
+        if(email == null) {
+            throw new GlobalException(ErrorCode.INVALID_PERMISSION,"로그인해야 이용 가능합니다");
+        }else{
 
-        return strategyService.strategyBoard(file,video,strategyRequest,videoRequest,email);
+            return ResponseEntity.ok().body(strategyService.strategyBoard(file,video,strategyRequest,videoRequest,email));
+        }
     }
 
     @PatchMapping("/admin/strategy/{strategyId}")
