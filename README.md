@@ -1,4 +1,4 @@
-<center><img width="100%" src="https://user-images.githubusercontent.com/113500937/234171547-151e87e5-2373-456b-9e95-16f9a2413661.jpg%22%3E</center>
+<center><img width="100%" src="https://user-images.githubusercontent.com/113500937/234214040-d538bde0-34bd-47c4-9825-71aec7357ea3.jpg"></center>
 
 ## ⭐[Ollaedu](https://develop--precious-cucurucho-939ab7.netlify.app/mobile)  (23.03.06.~)⭐
 
@@ -19,22 +19,16 @@
         - 과목필터를 통해 해당 게시물이 표시되는 리스트형 페이지를 신규 제작
         - '해설강의 보기' 버튼 클릭시 팝업을 통해 해당 유튜브 영상이 표시되도록 구현
         - 썸네일 아래 타이틀 클릭 시 상세 페이지로 이동하도록 구현 → 목록 페이지, 뷰 페이지
-
-
-<hr>
+<br/><br/>
 ## 💠협업 방식
 - 개발 과정에서 발생한 문제점들은 Slack을 통해 공유하면 협력해 해결할 수 있도록 합니다.
 - 모든 Pull Request는 다른 팀원들에게 알려 Slack에서 확인을 받고 Merge 합니다.
-- Postman, Notion, 팀 Slack을 활용해 BE 내부 회의, FE와의 소통을 했습니다.
+- Postman, Notion, 팀 Slack을 활용해 BE 내부 회의, FE와의 소통을 했습니다.  
 - Notion을 활용해 파트 별로 회의록을 작성했습니다.
-
-<br>
+<br/><br/>
 
 
 ## ❤️ 기술스택
-
-
-
 ![Spring Boot](https://img.shields.io/badge/Spring%20Boot-6DB33F?style=flat-round&logo=Spring%20Boot&logoColor=white)  ![Spring Security](https://img.shields.io/badge/Spring%20Security-6DB33F?style=flat-round&logo=Spring&logoColor=white)  ![Spring Data JPA](https://img.shields.io/badge/Spring%20Data%20JPA-6DB33F?style=flat-round&logo=Spring&logoColor=white) ![Lombok](https://img.shields.io/badge/Lombok-BC2055?style=flat-round&logo=Lombok&logoColor=white)
 ![Java](https://img.shields.io/badge/Java-007396?style=flat-round&logo=Java&logoColor=white) ![MariaDB](https://img.shields.io/badge/MariaDB-003545?style=flat-round&logo=MariaDB&logoColor=white) ![Amazon Web Services](https://img.shields.io/badge/Amazon%20Web%20Services-232F3E?style=flat-round&logo=amazon-aws&logoColor=white) ![Git](https://img.shields.io/badge/Git-F05032.svg?&style=for-the-badge&logo=Git&logoColor=white)
 
@@ -49,20 +43,65 @@
 - git Actions
 - Nginx
 
-<img width="5%" src="https://techstack-generator.vercel.app/nginx-icon.svg"/>
-<img width="5%" src="https://techstack-generator.vercel.app/mysql-icon.svg"/>
+<img width="5%" src="https://techstack-generator.vercel.app/nginx-icon.svg"/> <img width="5%" src="https://techstack-generator.vercel.app/mysql-icon.svg"/>
 <img width="5%" src="https://techstack-generator.vercel.app/aws-icon.svg"/>
 <img width="5%" src="https://techstack-generator.vercel.app/github-icon.svg"/>
 
+<br/><br/>
 ## 🧡 API 기능명세서 (API Documentation)
+- <b>백엔드</b> (https://documenter.getpostman.com/view/26306318/2s93RTQrxd)
 
-- <b>백엔드</b> [(https://documenter.getpostman.com/view/26306318/2s93RTQrxd)]
-  49
-
-50
-
-51
+<br/><br/>
 ## 💛ER 다이어그램 (ER-Diagram with Cardinality Constraints)
-
 ![234204697-8709b99f-6ec3-4168-ac60-f9f89c304a54](https://user-images.githubusercontent.com/105026909/234210503-2f846d6b-e59f-49ae-899d-a5f331044054.png)
 
+<br/><br/>
+## 💚아키텍쳐
+
+<br></br>
+## 💙라이센스 (Licence)
+- This project is licensed under the MIT License.
+
+<br></br>
+## 💜Member Contact Information
+<table border>
+  <tbody>
+    <tr>
+      <td align="center" width="250px">
+        <center>BE. 팀장</center><br>
+        <a href="https://github.com/kimjaeseong1">
+          <img src="https://img.shields.io/badge/김재성-345ebf?style=flat-round&logo=GitHub&logoColor=white"/>
+        <img width="100%" src="https://user-images.githubusercontent.com/113500937/234210412-0860ad92-bfc0-46f6-8814-e48ff0395995.png"  alt=""/>
+        </a>
+        <center>관리자페이지 학습전략 CRUD</center><br>
+        <center>PostmanAPI 작성</center><br>
+        <center>학습전략 검색</center><br>
+      </td>
+        <td align="center" width="250px">
+          <center>BE. 팀원</center><br>
+          <a href="https://github.com/Ryusunshine">
+            <img src="https://img.shields.io/badge/염류선-345ebf?style=flat-round&logo=GitHub&logoColor=white"/>
+          <img width="100%" src="https://user-images.githubusercontent.com/113500937/234215535-8a8a5a4d-70ac-46d8-8358-a49eca2c4c15.png"  alt=""/>
+          </a>
+          <center>관리자페이지 기출해설 CRUD</center><br>
+          <center>이미지 조회</center><br>
+          <center>첨부파일 다운로드</center><br>
+      </td>
+      <td align="center" width="250px">
+          <center>BE. 팀원</center><br>
+          <a href="https://github.com/suji5262">
+            <img src="https://img.shields.io/badge/최수지-345ebf?style=flat-round&logo=GitHub&logoColor=white"/>
+          <img width="100%" src="https://user-images.githubusercontent.com/113500937/234218595-05452d41-18a7-4913-b175-9ed1feb5141c.png"  alt=""/>
+          </a>
+          <center>학습전략조회(전체, 상세)</center><br>
+          <center>기출해설 검색</center><br>
+          <center>CI/CD</center><br>
+          <center>서버 배포</center><br>
+      </td>
+     </tr>
+  </tbody>
+</table>   
+
+
+<br></br>
+## 🤍프로젝트 회고(Reflection Report)
