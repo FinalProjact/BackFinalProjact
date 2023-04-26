@@ -10,7 +10,10 @@
 <br></br>
 ---
 ![image](https://user-images.githubusercontent.com/113500937/234468853-587c10bd-f7ea-4935-9e3b-7f0660ca4937.png)
-
+<br></br>
+---
+<br></br>
+![시연영상](https://user-images.githubusercontent.com/113500937/234471287-58140ec5-f650-4040-b20f-aa1e3e988d46.gif)
 
 
 ###  <br></br>프로젝트 소개:
