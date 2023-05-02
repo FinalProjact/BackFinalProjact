@@ -71,6 +71,7 @@
 
 <br/><br/>
 ## 💚아키텍쳐
+![8조 아키텍처](https://user-images.githubusercontent.com/113500937/235686309-dac0b862-88d2-4169-a202-266ff51da88d.jpg)
 
 <br></br>
 ## 💙라이센스 (Licence)
@@ -105,7 +106,7 @@
           <center>BE. 팀원</center><br>
           <a href="https://github.com/suji5262">
             <img src="https://img.shields.io/badge/최수지-345ebf?style=flat-round&logo=GitHub&logoColor=white"/>
-          <img width="100%" src="https://user-images.githubusercontent.com/113500937/234218595-05452d41-18a7-4913-b175-9ed1feb5141c.png"  alt=""/>
+          <img width="100%" src="https://user-images.githubusercontent.com/113500937/235686635-cc13747c-43e3-4943-bc9d-f6eb30754d17.png"  alt=""/>
           </a>
           <center>학습전략조회(전체, 상세)</center><br>
           <center>기출해설 검색</center><br>
