@@ -49,11 +49,9 @@ public class StrategyServiceImpl implements StrategyService {
     public String strategyBoard(MultipartFile file,MultipartFile video, StrategyRequest strategyRequest, StrategyVideoRequest videoRequest,String email) {
 
         try{
-
             Member member = memberRepository.findByEmail(email).orElse(null);
 
-
-            if(member.getRole() == 1){
+            if((member.getRole() == 1) && (member !=null)){
 
                 String image = uploadPic(file);
                 strategyRequest.setImage(image);
@@ -61,20 +59,17 @@ public class StrategyServiceImpl implements StrategyService {
                 String video1= uploadPic(video);
                 videoRequest.setVideoLink(video1);
 
-
                 Subject subject = subjectRepository.findBySubjectName(strategyRequest.getSubjectName()).get();
 
                 Strategy strategy = strategyRequest.toEntity(subject);
 
                 StrategyVideo strategyVideo = videoRequest.toEntity(strategy);
 
-
                 strategyRepository.save(strategy);
                 strategyVideoRepository.save(strategyVideo);
-
             }
 
-        }catch (Exception e){
+        }catch (NullPointerException | IOException e){
             e.printStackTrace();
             return "관리자만 작성 가능합니다";
         }
